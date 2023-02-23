@@ -39,12 +39,16 @@
 }
 
 /* ^React element if the user is not logged in */
-.btn {
-    font-size: 25px;
-    padding: 6px;
-    background: inherit;
-    border: white 1px solid;
-    color: white
+.login-logout-btn {
+    font-size: 1.3em;
+    width: 120px;
+    height: 50px;
+    background: #0d00ff;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #0d00ff;
 }
 
 .btn:hover{

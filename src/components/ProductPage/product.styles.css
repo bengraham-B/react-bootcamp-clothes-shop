@@ -44,3 +44,15 @@
     border: none;
     box-shadow: 1px 1px 5px 1px #32CD32;
 }
+
+.book-mark-button{
+    font-size: 1.3em;
+    width: 120px;
+    height: 50px;
+    background: #0d00ff;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #0d00ff;
+}

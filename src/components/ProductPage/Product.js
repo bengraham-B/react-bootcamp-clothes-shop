@@ -1,11 +1,13 @@
 import React from 'react'
-import './product.css'
+import './product.styles.css'
+
 
 
 
 
 
 export default function Product(props) {
+
   return (
     <div className="product-container ">
         <di className="img-container container">
@@ -24,6 +26,10 @@ export default function Product(props) {
             <p className="price-text">{props.price}</p>
         </div>
 
+        <div className="button-container container">
+            <button className="book-mark-button">Bookmark</button>
+        </div>
+        
         <div className="button-container container">
             <button className="buy-button">Buy</button>
         </div>
