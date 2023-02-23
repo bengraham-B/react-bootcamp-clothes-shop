@@ -1,3 +1,8 @@
 git remote add origin https://github.com/bengraham-B/react-bootcamp-clothes-shop.git
 git branch -M main
 git push -u origin main
+
+--- routing Branch ---
+git remote add origin https://github.com/bengraham-B/react-bootcamp-clothes-shop.git
+git branch -M routing
+git push -u origin routing
