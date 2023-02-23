@@ -15,6 +15,9 @@ export default function Menu() {
             <Link to="/legal-page">Legal Page</Link>
         </div>
         <div className="user-profile route-link-container">
+            <Link to="/intrest-calc">Intrest Calculator</Link>
+        </div>
+        <div className="user-profile route-link-container">
             <Link to="/user-profile">User Profile</Link>
         </div>
     </div>

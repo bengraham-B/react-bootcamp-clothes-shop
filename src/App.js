@@ -7,6 +7,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import ProductPage from './components/ProductPage/ProductPage';
 import UserProfile from './components/UserProfile/UserProfile'
 import LegalPage from './components/LegalPage/LegalPage'
+import IntrestCalc from './components/IntrestCalc/IntrestCalc';
 
 //^ Importing Styles
 import './app.css'
@@ -30,6 +31,7 @@ function App() {
 			<Route exact path="/" element={<LandingPage/>}/>
 			<Route path="/product-page" element={<ProductPage/>}/>
 			<Route path="/legal-page" element={<LegalPage/>}/>
+			<Route path="/intrest-calc" element={<IntrestCalc/>}/>
 			<Route path="/user-profile" element={<UserProfile/>}/>
 		</Routes>
 			
