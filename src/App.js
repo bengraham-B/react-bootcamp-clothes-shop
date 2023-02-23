@@ -1,68 +1,38 @@
-
+import { Route, Routes } from 'react-router-dom'
 
 //^ Importing the React Componets. 
 import Header from "./components/Header/Header";
-import LandingPage from './components/LandingPage/LandingPage';
 import Menu from './components/Menu/Menu';
-import Product from './components/ProductPage/Product';
+import LandingPage from './components/LandingPage/LandingPage';
+import ProductPage from './components/ProductPage/ProductPage';
+import UserProfile from './components/UserProfile/UserProfile'
+import LegalPage from './components/LegalPage/LegalPage'
 
 //^ Importing Styles
 import './app.css'
 
-//^ Importing Product images
-import product_1 from './components/ProductPage/prodcut_assets/product_1.jpeg'
-import product_2 from './components/ProductPage/prodcut_assets/product_3.jpeg'
-import product_3 from './components/ProductPage/prodcut_assets/product_3.jpeg'
+// //^ Importing Product images
+// import product_1 from './components/ProductPage/prodcut_assets/product_1.jpeg'
+// import product_2 from './components/ProductPage/prodcut_assets/product_3.jpeg'
+// import product_3 from './components/ProductPage/prodcut_assets/product_3.jpeg'
+
 
 
 function App() {
 
-	const products = [
-		{
-			img: product_1,
-			title: "Luck Cat T-Shirt",
-			description: "A white Japenese orginal Luck Cat T-shirt, will blue detailing.",
-			price: "R599"
 	
-		},
-		{
-			img: product_2,
-			title: "Seven Zerio Five Shirt",
-			description: "A balck zeven zero five shirt, with white text",
-			price: "R499"
-	
-		},
-		{
-			img: product_3,
-			title: "Seven Zero Five Hoodie",
-			description: "A black Seven Zero Five Hoodie, with white text",
-			price: "R699"
-	
-		}
-
-	]
-
-	const DisplayProducts = () => {
-		const listOfProducts = products.map((product) =>{
-			return <Product img={product.img} title={product.title} description={product.description} price={product.price} />
-		})
-
-		return (
-			<div>
-				{listOfProducts}
-			</div>
-		)
-	}
-
 
   return (
     <div className="App">
 		<Header/>
 		<Menu/>
-		<LandingPage/>
-		<div className="product-section">
-			<DisplayProducts/>
-		</div>
+		<Routes>
+			<Route exact path="/" element={<LandingPage/>}/>
+			<Route path="/product-page" element={<ProductPage/>}/>
+			<Route path="/legal-page" element={<LegalPage/>}/>
+			<Route path="/user-profile" element={<UserProfile/>}/>
+		</Routes>
+			
     </div>
   );
 }
