@@ -1,0 +1,6 @@
+.product-page{
+    width: 100%;
+    min-height: 100vh; /** The "min-height" will ensure that the products fit nicely on the page */
+    display: flex;
+    justify-content: center;
+}

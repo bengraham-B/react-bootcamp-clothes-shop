@@ -1,0 +1,63 @@
+.header {
+    width: 100%;
+    height: 15.5vh;
+    background: rgb(0, 85, 255);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.header-img {
+    height: inherit;
+}
+
+.title {
+    color: white;
+    font-size:3rem;
+    margin: 25px;
+}
+
+/* ^Splitting the header into two equal parts */
+.left-header{ /*^ The left part of the header. */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 50%;
+}
+
+.right-header{ /*^ The right part of the header. */
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 120px 0 0;
+}
+
+/* ^React element if the user is not logged in */
+.login-logout-btn {
+    font-size: 1.3em;
+    width: 120px;
+    height: 50px;
+    background: #0d00ff;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #0d00ff;
+}
+
+.btn:hover{
+    background: white;
+    color: red;
+}
+
+/* ^React element if the user is logged in */
+.user-logged-in-text {
+    color: white;
+
+}

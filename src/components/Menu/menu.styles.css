@@ -1,0 +1,15 @@
+.menu-container {
+	width: 100%;
+	height: 6vh;
+	background: lightblue;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.route-link-container{
+	font-family: "poppins";
+	font-size: 1.4em;
+}

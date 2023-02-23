@@ -1,0 +1,58 @@
+.product-container {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px 1px grey;
+    margin: 15px;
+}
+
+.container { /*^ A general class for all the divs which have a child element, within the 'product-container' */
+    width: 100%;
+    height: 150px; /*^ Setting height for the 'product-container' div*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    width: inherit;
+    padding: 10px 0 10px 0;
+}
+
+/*^ Setting Style for the Image  */
+.img{
+    height: 100%;
+}
+
+.title-text {
+    font-size: 1.3em;
+    margin: 20px;
+}
+
+
+.buy-button{
+    font-size: 1.3em;
+    width: 120px;
+    height: 50px;
+    background: #32CD32;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #32CD32;
+}
+
+.book-mark-button{
+    font-size: 1.3em;
+    width: 120px;
+    height: 50px;
+    background: #0d00ff;
+    color: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #0d00ff;
+}

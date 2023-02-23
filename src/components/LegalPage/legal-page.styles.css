@@ -1,0 +1,53 @@
+.legal-page-container {
+    width: 100%;
+    height: auto;
+}
+
+.legal-page-title-container{
+    text-align: center;
+    font-size: 1.5em;
+    height: auto;
+}
+
+.legal-page-text-container{
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+}
+  
+.legal-page-text-div{
+    width: 60%;
+    height: 545px;
+    margin: 25px 50px 50px 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px grey;
+
+}
+
+.legal-page-text-div > .legal-page-title{
+    text-align: center;
+    font-size: 2.4em;
+
+}
+/** Made this a div, because the <hr/> was not big enough  */
+.legal-page-hr{
+    margin: 0 75px 0 75px;
+    background: black;
+    height: 2.5px;
+
+}
+
+.legal-page-text-div > .title{
+    text-align: center;
+}
+.legal-page-text-div > .text{
+    text-align: center;
+    margin: 15px 50px 10px 50px;
+}
+
+
+
+
+
