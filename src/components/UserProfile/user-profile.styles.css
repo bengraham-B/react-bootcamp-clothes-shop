@@ -1,0 +1,111 @@
+/*~ Naming convention: up -> user-profile */
+
+.up-page{
+    width: 100%;
+    height: auto;
+    /* background: blue; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*~ Profile Container  */
+.up-profile-container{
+    width: 400px;
+    height: 600px;
+    margin: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px grey;
+
+}
+
+.up-profile-pic-container{
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up-profile-pic{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 32.5px;
+}
+
+.up-profile-text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.up-profile-text{
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.up-item-container{
+    margin: 15px;
+}
+
+.up-item-container > .heading{
+    color: red;
+}
+
+
+
+.up-item-container > .up-button{
+    width: 100px;
+    height: 45px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/*? Other Container  */
+/*? Naming-convention: si -> saved items  */
+.up-saved-items-container{
+    width: 900px;
+    height: 600px;
+    box-shadow: 1px 1px 5px 1px grey;
+    border-radius: 15px;
+    margin: 50px;
+}
+
+.up-si-title{
+    text-align: center;
+    margin: 12px;
+
+}
+
+.up-si-hr{
+    margin: 20px 75px 20px 75px;
+    background-color: #000000;
+}
+
+.up-si-product-container{
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3em;
+}
+

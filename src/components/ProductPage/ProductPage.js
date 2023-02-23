@@ -31,20 +31,6 @@ export default function ProductPage() {
 			description: "A black Seven Zero Five Hoodie, with white text",
 			price: "R699"
 	
-		},
-		{
-			img: product_3,
-			title: "Seven Zero Five Hoodie",
-			description: "A black Seven Zero Five Hoodie, with white text",
-			price: "R699"
-	
-		},
-		{
-			img: product_3,
-			title: "Seven Zero Five Hoodie",
-			description: "A black Seven Zero Five Hoodie, with white text",
-			price: "R699"
-	
 		}
 
 	]
